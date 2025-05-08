@@ -482,7 +482,7 @@ markdown_extensions:
   - pymdownx.betterem:
   - pymdownx.caret:
   - pymdownx.critic:
-  #- pymdownx.details:
+  - pymdownx.details:
   #- pymdownx.emoji:
   #- pymdownx.escapeall:
   #- pymdownx.extra:
@@ -496,8 +496,8 @@ markdown_extensions:
   #- pymdownx.progressbar:
   #- pymdownx.smartsymbols:
   #- pymdownx.snippets:
-  #- pymdownx.striphtml:
-  #- pymdownx.superfences:
-  #- pymdownx.tabbed:
-  #- pymdownx.tasklist:
-  #- pymdownx.tilde:
+  - pymdownx.striphtml:
+  - pymdownx.superfences:
+  - pymdownx.tabbed:
+  - pymdownx.tasklist:
+  - pymdownx.tilde:
