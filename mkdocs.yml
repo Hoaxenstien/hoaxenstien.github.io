@@ -483,14 +483,14 @@ markdown_extensions:
   - pymdownx.caret:
   - pymdownx.critic:
   - pymdownx.details:
-  #- pymdownx.emoji:
+  - pymdownx.emoji:
   #- pymdownx.escapeall:
   - pymdownx.extra:
-  #- pymdownx.extrarawhtml:
+  - pymdownx.extrarawhtml:
   #- pymdownx.highlight:
   - pymdownx.inlinehilite:
   #- pymdownx.keys:
-  #- pymdownx.magiclink:
+  - pymdownx.magiclink:
   #- pymdownx.mark:
   - pymdownx.pathconverter:
   #- pymdownx.progressbar:
