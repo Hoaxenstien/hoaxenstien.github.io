@@ -477,11 +477,11 @@ markdown_extensions:
       guess_lang: false
   - markdown.extensions.toc:
       permalink: true
-  # - pymdownx.arithmex:
-  #- pymdownx.b64:
-  #- pymdownx.betterem:
-  #- pymdownx.caret:
-  #- pymdownx.critic:
+  - pymdownx.arithmex:
+  - pymdownx.b64:
+  - pymdownx.betterem:
+  - pymdownx.caret:
+  - pymdownx.critic:
   #- pymdownx.details:
   #- pymdownx.emoji:
   #- pymdownx.escapeall:
