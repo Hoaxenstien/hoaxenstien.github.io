@@ -38,7 +38,7 @@ site_author: 'Andre_601'
 # | The text is treated as HTML code so you can use things like <a> tags or &copy; to display the          |
 # | Copyright icon.                                                                                        |
 # |                                                                                                        |
-# | Where or IF the Copyright is displayed depends on the theme you use.                                   |
+# | Where or IF the Copyright is displayed depends on the  you use.                                   |
 # |                                                                                                        |
 # | Read More:                                                                                             |
 # | - https://www.mkdocs.org/user-guide/configuration/#copyright                                           |
@@ -106,6 +106,8 @@ nav:
 # |                                                                                                        |
 # +--------------------------------------------------------------------------------------------------------+
 theme:
+  features:
+    - navigation.path
 
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
