@@ -171,7 +171,8 @@ theme:
   # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-palette-toggle        |
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
-  palette:
+   palette:
+      accent: cyan
   
     # +----------------------------------------------------------------------------------------------------+
     # |                                                                                                    |
@@ -184,7 +185,7 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-scheme              |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
-    scheme: 'slate'
+    scheme: default
     
     # +----------------------------------------------------------------------------------------------------+
     # |                                                                                                    |
@@ -196,7 +197,7 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color             |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
-    primary: 'indigo'
+    primary: deep purple
     
     # +----------------------------------------------------------------------------------------------------+
     # |                                                                                                    |
@@ -206,7 +207,7 @@ theme:
     # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color              |
     # |                                                                                                    |
     # +----------------------------------------------------------------------------------------------------+
-    accent: 'indigo'
+    accent: amber
     
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -222,8 +223,8 @@ theme:
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
   font:
-   text: 'Roboto'
-   code: 'Roboto Mono'
+   text: Roboto
+   code: Roboto Mono
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
@@ -289,8 +290,9 @@ theme:
     - navigation.sections    # Render top sections as groups.
   #- navigation.tabs         # Render top sections as tabs at the top.
   #- navigation.tabs.sticky # Tabs won't disappear when scrolling down. Requires "navigation.tabs".
-  #- navigation.top         # Adds a "Back to top" that is shown when scrolling up.
+    - navigation.top         # Adds a "Back to top" that is shown when scrolling up.
   #- navigation.tracking    # Updates the url with highlighted section anchor.
+    - content.code.copy
   #########################################################################################################################################
 
   #########################################################################################################################################
@@ -330,8 +332,8 @@ theme:
   # |                                                                                                      |
   # +------------------------------------------------------------------------------------------------------+
   icon:
-    logo: 'material/library'
-    repo: 'material/library'
+    logo: material/rocket
+    repo: fontawesome/brands/github
   
   # +------------------------------------------------------------------------------------------------------+
   # |                                                                                                      |
